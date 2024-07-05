@@ -59,10 +59,10 @@ namespace ModsenPractice
                         Console.WriteLine("Prev max value: " + ArrayOperations.GetPrevMax(numbersArr));
                         break;
                     case "4":
-                        Console.WriteLine("Count of unique occurrences" + ArrayOperations.GetUniqueCount(numbersArr));
+                        Console.WriteLine("Count of unique occurrences: " + ArrayOperations.GetUniqueCount(numbersArr));
                         break;
                     case "5":
-                        Console.WriteLine("First unique entry" + ArrayOperations.GetFirstUnique(numbersArr));
+                        Console.WriteLine("First unique entry: " + ArrayOperations.GetFirstUnique(numbersArr));
                         break;
                     case "6":
                         ArrayOperations.PrintArray(ArrayOperations.SwapMinMax(numbersArr));
